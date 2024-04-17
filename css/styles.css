@@ -1,0 +1,389 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-top: 40px;
+}
+
+.blue-bar {
+    background-color: #007bff;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 20px; /* Adjust padding */
+}
+
+.blue-bar img {
+    height: 100px; /* Set the height of the logo */
+}
+
+
+.title {
+    font-size: 42px;
+    margin-top: -50px;
+    white-space: nowrap;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.title {
+    margin-right: 1000px; 
+    margin-bottom: -100px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 900px; 
+    margin-top: 100px;
+}
+
+
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 510px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.gray-bar {
+    background-color: #f0f0f0;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray-bar p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+/*LOCATIONS PAGE*/
+.location {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location .picture,
+.location .text {
+    width: 45%; 
+}
+
+.location .picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-red:hover {
+    background-color: #c82333; 
+}
+
+
+
+/*ABOUT*/
+.title {
+    font-size: 42px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.content {
+    flex-grow: 1;
+    margin-right: 20px; 
+}
+
+.image img {
+    height: auto;
+}
+
+
+/*WHITE SANDS PAGE*/
+.image-bar {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-bar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.bar-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-17%, 0%);
+    text-align: center;
+}
+
+.btn-home,
+.btn-locations,
+.btn-itinerary,
+.btn-about {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+
+.btn-home:hover,
+.btn-locations:hover,
+.btn-itinerary:hover,
+.btn-about:hover {
+    background-color: #0056b3; 
+}
+
+.image-bar .btn-home,
+.image-bar .btn-locations {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    float: right; 
+    position: absolute; 
+    top: 50%;
+    right: 750px;
+}
+
+.image-bar .btn-home {
+    right: 630px;
+}
+
+.image-bar .btn-home:hover,
+.image-bar .btn-locations:hover {
+    background-color: #c82333;
+}
+
+.site-btn,
+.official-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.site-btn:hover,
+.official-btn:hover {
+    background-color: #218838; 
+}
+
+/* ITINERARY PAGE */
+#google-earth-plugin {
+    width: 100%;
+    height: 400px; 
+    margin-top: 20px; 
+}
+
+.text-section {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.location-buttons {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.location-buttons button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.location-buttons button:hover {
+    background-color: #c82333;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-text-section {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 50%; 
+    margin-right: 20px;
+}
+
+.text {
+    width: 50%; 
+}
+
+.location-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.location-buttons button {
+    margin: 0 5px; 
+}
+
+/* RESPONSIVENESS */
+
+/* Extra Small devices (phones) */
+@media (max-width: 575.98px) {
+    .container {
+      padding: 0 10px;
+    }
+    .blue-bar {
+      height: 80px;
+    }
+    .title {
+      font-size: 24px;
+    }
+  }
+  
+  /* Small devices (landscape phones) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+      padding: 0 15px;
+    }
+    .blue-bar {
+      height: 100px;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+      padding: 0 20px;
+    }
+    .blue-bar {
+      height: 120px;
+    }
+  }
+  
+  /* Large devices (desktops) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+      padding: 0 30px;
+    }
+    .blue-bar {
+      height: 140px;
+    }
+  }
+  
+  /* Extra Large devices (large desktops) */
+  @media (min-width: 1200px) {
+    .container {
+      padding: 0 40px;
+    }
+    .blue-bar {
+      height: 160px;
+    }
+  }
+  
+
+.blue-bar {
+    background-color: #007bff;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 20px; 
+    position: relative; 
+}
+
+.blue-bar img {
+    height: 100px; 
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center; 
+    position: absolute; 
+    top: -10%; 
+    transform: translateY(-50%); 
+    right: 20px; 
+}
